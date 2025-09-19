@@ -1,0 +1,619 @@
+{
+  "trains": [
+    {
+      "number": "54633",
+      "name": "Sirsa - Ludhiana Passenger",
+      "from": {
+        "code": "SSA",
+        "name": "Sirsa"
+      },
+      "to": {
+        "code": "LDH",
+        "name": "Ludhiana Jn"
+      },
+      "type": "Passenger",
+      "zone": "NR",
+      "runningDays": "Daily",
+      "distance": "292 km",
+      "totalTime": "7h 25m",
+      "stations": [
+        {
+          "code": "SSA",
+          "name": "Sirsa",
+          "arrival": null,
+          "departure": "11:40",
+          "halt": null,
+          "day": 1,
+          "km": 0
+        },
+        {
+          "code": "BJRN",
+          "name": "Suqkan",
+          "arrival": "11:49",
+          "departure": "11:50",
+          "halt": "1m",
+          "day": 1,
+          "km": 7
+        },
+        {
+          "code": "SHN",
+          "name": "Suchan Kotli",
+          "arrival": "11:57",
+          "departure": "11:59",
+          "halt": "2m",
+          "day": 1,
+          "km": 15
+        },
+        {
+          "code": "DING",
+          "name": "Ding",
+          "arrival": "12:11",
+          "departure": "12:13",
+          "halt": "2m",
+          "day": 1,
+          "km": 25
+        },
+        {
+          "code": "BHT",
+          "name": "Bhatsu",
+          "arrival": "12:26",
+          "departure": "12:28",
+          "halt": "2m",
+          "day": 1,
+          "km": 36
+        },
+        {
+          "code": "ADR",
+          "name": "Mandi Adampur",
+          "arrival": "12:45",
+          "departure": "12:47",
+          "halt": "2m",
+          "day": 1,
+          "km": 53
+        },
+        {
+          "code": "JRH",
+          "name": "Jakhod Khera",
+          "arrival": "12:57",
+          "departure": "12:59",
+          "halt": "2m",
+          "day": 1,
+          "km": 66
+        },
+        {
+          "code": "HSR",
+          "name": "Hisar Jn",
+          "arrival": "13:40",
+          "departure": "13:50",
+          "halt": "10m",
+          "day": 2,
+          "km": 82
+        },
+        {
+          "code": "RPHR",
+          "name": "Raipur Haryana Jn",
+          "arrival": "14:02",
+          "departure": "14:03",
+          "halt": "1m",
+          "day": 1,
+          "km": 87
+        },
+        {
+          "code": "DKK",
+          "name": "Dhansu",
+          "arrival": "14:10",
+          "departure": "14:11",
+          "halt": "1m",
+          "day": 1,
+          "km": 94
+        },
+        {
+          "code": "BXC",
+          "name": "Barwala",
+          "arrival": "14:26",
+          "departure": "14:28",
+          "halt": "2m",
+          "day": 1,
+          "km": 114
+        },
+        {
+          "code": "OUP",
+          "name": "Daulapur Haryana",
+          "arrival": "14:38",
+          "departure": "14:39",
+          "halt": "1m",
+          "day": 1,
+          "km": 123
+        },
+        {
+          "code": "UKN",
+          "name": "Utkina",
+          "arrival": "14:46",
+          "departure": "14:47",
+          "halt": "1m",
+          "day": 1,
+          "km": 130
+        },
+        {
+          "code": "GJW",
+          "name": "Gajuwala",
+          "arrival": "14:54",
+          "departure": "14:55",
+          "halt": "1m",
+          "day": 1,
+          "km": 137
+        },
+        {
+          "code": "PLT",
+          "name": "Pirthula Lalauda",
+          "arrival": "15:02",
+          "departure": "15:03",
+          "halt": "1m",
+          "day": 1,
+          "km": 142
+        },
+        {
+          "code": "JPS",
+          "name": "Jamalpur Shakhan",
+          "arrival": "15:12",
+          "departure": "15:13",
+          "halt": "1m",
+          "day": 1,
+          "km": 151
+        },
+        {
+          "code": "KUDN",
+          "name": "Kudni",
+          "arrival": "15:19",
+          "departure": "15:20",
+          "halt": "1m",
+          "day": 1,
+          "km": 156
+        },
+        {
+          "code": "JHL",
+          "name": "Jakhai Jn",
+          "arrival": "15:31",
+          "departure": "15:33",
+          "halt": "2m",
+          "day": 1,
+          "km": 164
+        },
+        {
+          "code": "LHA",
+          "name": "Lehra Gaga",
+          "arrival": "15:50",
+          "departure": "15:52",
+          "halt": "2m",
+          "day": 1,
+          "km": 180
+        },
+        {
+          "code": "CJL",
+          "name": "Chhaji",
+          "arrival": "16:06",
+          "departure": "16:07",
+          "halt": "1m",
+          "day": 1,
+          "km": 192
+        },
+        {
+          "code": "SFMU",
+          "name": "Sunam Udham Singh Wala",
+          "arrival": "16:15",
+          "departure": "16:17",
+          "halt": "2m",
+          "day": 1,
+          "km": 201
+        },
+        {
+          "code": "SAG",
+          "name": "Sangrur",
+          "arrival": "16:29",
+          "departure": "16:31",
+          "halt": "2m",
+          "day": 1,
+          "km": 214
+        },
+        {
+          "code": "RSS",
+          "name": "Bahadir Singh Wala",
+          "arrival": "16:45",
+          "departure": "16:46",
+          "halt": "1m",
+          "day": 1,
+          "km": 232
+        },
+        {
+          "code": "OUI",
+          "name": "Dhuri Jn",
+          "arrival": "17:26",
+          "departure": "17:10",
+          "halt": "5m",
+          "day": 2,
+          "km": 207
+        },
+        {
+          "code": "MET",
+          "name": "Malerkotla",
+          "arrival": "17:24",
+          "departure": "17:26",
+          "halt": "2m",
+          "day": 1,
+          "km": 247
+        },
+        {
+          "code": "AHH",
+          "name": "Ahmedgarh",
+          "arrival": "17:50",
+          "departure": "17:52",
+          "halt": "2m",
+          "day": 1,
+          "km": 267
+        },
+        {
+          "code": "QRP",
+          "name": "Kila Raipur",
+          "arrival": "18:30",
+          "departure": "18:10",
+          "halt": "1m",
+          "day": 1,
+          "km": 274
+        },
+        {
+          "code": "GILL",
+          "name": "Gill",
+          "arrival": "18:36",
+          "departure": "18:37",
+          "halt": "1m",
+          "day": 1,
+          "km": 284
+        },
+        {
+          "code": "LDH",
+          "name": "Ludhiana Jn",
+          "arrival": "19:05",
+          "departure": null,
+          "halt": null,
+          "day": 1,
+          "km": 292
+        }
+      ]
+    },
+    {
+      "number": "54552",
+      "name": "Bathinda - Ambala Cantt Passenger",
+      "from": {
+        "code": "BTI",
+        "name": "Bathinda Jn"
+      },
+      "to": {
+        "code": "UMB",
+        "name": "Ambala Cantt Jn"
+      },
+      "type": "Passenger",
+      "zone": "NR",
+      "runningDays": "Daily",
+      "distance": "201 km",
+      "totalTime": "4h 35m",
+      "stations": [
+        {
+          "code": "BTI",
+          "name": "Bathinda Jn",
+          "arrival": null,
+          "departure": "07:30",
+          "halt": null,
+          "day": 1,
+          "km": 0
+        },
+        {
+          "code": "BTIC",
+          "name": "Bathinda Cantt",
+          "arrival": "07:40",
+          "departure": "07:41",
+          "halt": "1m",
+          "day": 1,
+          "km": 6
+        },
+        {
+          "code": "BCU",
+          "name": "Bhuchchu",
+          "arrival": "07:49",
+          "departure": "07:50",
+          "halt": "1m",
+          "day": 1,
+          "km": 17
+        },
+        {
+          "code": "PJL",
+          "name": "Rampura Phul",
+          "arrival": "08:02",
+          "departure": "08:04",
+          "halt": "2m",
+          "day": 1,
+          "km": 32
+        },
+        {
+          "code": "JHK",
+          "name": "Jetinkae",
+          "arrival": "08:14",
+          "departure": "08:15",
+          "halt": "1m",
+          "day": 1,
+          "km": 41
+        },
+        {
+          "code": "TAPA",
+          "name": "Tapa",
+          "arrival": "08:21",
+          "departure": "08:23",
+          "halt": "2m",
+          "day": 1,
+          "km": 46
+        },
+        {
+          "code": "GUNS",
+          "name": "Ghunas",
+          "arrival": "08:30",
+          "departure": "08:31",
+          "halt": "1m",
+          "day": 1,
+          "km": 51
+        },
+        {
+          "code": "HYA",
+          "name": "Hadiyaya",
+          "arrival": "08:39",
+          "departure": "08:40",
+          "halt": "1m",
+          "day": 1,
+          "km": 59
+        },
+        {
+          "code": "BNN",
+          "name": "Barnala",
+          "arrival": "08:46",
+          "departure": "08:48",
+          "halt": "2m",
+          "day": 1,
+          "km": 65
+        },
+        {
+          "code": "STO",
+          "name": "Sekha",
+          "arrival": "08:58",
+          "departure": "08:59",
+          "halt": "1m",
+          "day": 1,
+          "km": 74
+        },
+        {
+          "code": "ALAL",
+          "name": "Alal",
+          "arrival": "09:07",
+          "departure": "09:08",
+          "halt": "1m",
+          "day": 1,
+          "km": 82
+        },
+        {
+          "code": "DUI",
+          "name": "Dhuri Jn",
+          "arrival": "09:30",
+          "departure": "09:32",
+          "halt": "2m",
+          "day": 1,
+          "km": 95
+        },
+        {
+          "code": "SLSK",
+          "name": "Kaulseri",
+          "arrival": "09:38",
+          "departure": "09:40",
+          "halt": "1m",
+          "day": 1,
+          "km": 102
+        },
+        {
+          "code": "NBA",
+          "name": "Nabha",
+          "arrival": "09:56",
+          "departure": "09:58",
+          "halt": "2m",
+          "day": 1,
+          "km": 122
+        },
+        {
+          "code": "DBN",
+          "name": "Dhabilan",
+          "arrival": "10:11",
+          "departure": "10:12",
+          "halt": "1m",
+          "day": 1,
+          "km": 136
+        },
+        {
+          "code": "PTA",
+          "name": "Patiala",
+          "arrival": "10:22",
+          "departure": "10:24",
+          "halt": "2m",
+          "day": 1,
+          "km": 148
+        },
+        {
+          "code": "DOC",
+          "name": "Daun Kalan",
+          "arrival": "10:33",
+          "departure": "10:34",
+          "halt": "1m",
+          "day": 1,
+          "km": 155
+        },
+        {
+          "code": "KLI",
+          "name": "Kuili",
+          "arrival": "10:47",
+          "departure": "10:48",
+          "halt": "1m",
+          "day": 1,
+          "km": 162
+        },
+        {
+          "code": "RPJ",
+          "name": "Rajpura Jn",
+          "arrival": "11:03",
+          "departure": "11:05",
+          "halt": "2m",
+          "day": 1,
+          "km": 173
+        },
+        {
+          "code": "SJAU",
+          "name": "Shambhu",
+          "arrival": "11:38",
+          "departure": "11:39",
+          "halt": "1m",
+          "day": 1,
+          "km": 184
+        },
+        {
+          "code": "UBC",
+          "name": "Ambala City",
+          "arrival": "11:48",
+          "departure": "11:49",
+          "halt": "1m",
+          "day": 1,
+          "km": 194
+        },
+        {
+          "code": "UMB",
+          "name": "Ambala Cantt Jn",
+          "arrival": "12:05",
+          "departure": null,
+          "halt": null,
+          "day": 1,
+          "km": 201
+        }
+      ]
+    },
+    {
+      "number": "4784",
+      "name": "Sirsa - Bathinda Passenger",
+      "from": {
+        "code": "SSA",
+        "name": "Sirsa"
+      },
+      "to": {
+        "code": "BTI",
+        "name": "Bathinda Jn"
+      },
+      "type": "Passenger",
+      "zone": "NWR",
+      "runningDays": "Daily",
+      "distance": "76 km",
+      "totalTime": "2h 10m",
+      "stations": [
+        {
+          "code": "SSA",
+          "name": "Sirsa",
+          "arrival": null,
+          "departure": "07:50",
+          "halt": null,
+          "day": 1,
+          "km": 0
+        },
+        {
+          "code": "BGD",
+          "name": "Bara Gudah",
+          "arrival": "08:03",
+          "departure": "08:05",
+          "halt": "2m",
+          "day": 1,
+          "km": 18
+        },
+        {
+          "code": "SCV",
+          "name": "Sukhchain",
+          "arrival": "08:13",
+          "departure": "08:14",
+          "halt": "1m",
+          "day": 1,
+          "km": 25
+        },
+        {
+          "code": "KNL",
+          "name": "Kalunwali",
+          "arrival": "08:21",
+          "departure": "08:23",
+          "halt": "2m",
+          "day": 1,
+          "km": 33
+        },
+        {
+          "code": "RKK",
+          "name": "Ratangarh Kanakwal",
+          "arrival": "08:31",
+          "departure": "08:33",
+          "halt": "2m",
+          "day": 1,
+          "km": 41
+        },
+        {
+          "code": "RMN",
+          "name": "Raman",
+          "arrival": "08:40",
+          "departure": "08:42",
+          "halt": "2m",
+          "day": 1,
+          "km": 47
+        },
+        {
+          "code": "BNLS",
+          "name": "Bangi Nihal Singh Halt",
+          "arrival": "08:49",
+          "departure": "08:50",
+          "halt": "1m",
+          "day": 1,
+          "km": 53
+        },
+        {
+          "code": "MKBH",
+          "name": "Manwala Kot Bakhtu",
+          "arrival": "08:55",
+          "departure": "08:56",
+          "halt": "1m",
+          "day": 1,
+          "km": 56
+        },
+        {
+          "code": "SGA",
+          "name": "Shergarh",
+          "arrival": "09:00",
+          "departure": "09:02",
+          "halt": "2m",
+          "day": 1,
+          "km": 59
+        },
+        {
+          "code": "GHB",
+          "name": "Gahri Bhagi",
+          "arrival": "09:11",
+          "departure": "09:12",
+          "halt": "1m",
+          "day": 1,
+          "km": 65
+        },
+        {
+          "code": "BTI",
+          "name": "Bathinda Jn",
+          "arrival": "10:00",
+          "departure": null,
+          "halt": null,
+          "day": 1,
+          "km": 76
+        }
+      ]
+    }
+  ]
+}
