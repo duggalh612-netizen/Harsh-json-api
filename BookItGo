@@ -1,637 +1,499 @@
 {
   "success": true,
-  "data": [
+  "trains": [
     {
       "trainNumber": "54633",
       "trainName": "Sirsa - Ludhiana Passenger",
-      "sourceStationCode": "SSA",
-      "destinationStationCode": "LDH",
-      "fromStationSchedule": {
-        "arrivalMinutes": 0,
-        "departureMinutes": 700,
-        "day": 1,
-        "platform": "1",
-        "distanceFromSourceKm": 0
+      "type": "Passenger",
+      "runningDays": ["M", "T", "W", "T", "F", "S", "S"],
+      "fromStation": {
+        "code": "SSA",
+        "name": "Sirsa",
+        "departureMinutes": 700
       },
-      "toStationSchedule": {
-        "arrivalMinutes": 1145,
-        "departureMinutes": 0,
-        "day": 1,
-        "platform": "1",
-        "distanceFromSourceKm": 292
+      "toStation": {
+        "code": "LDH",
+        "name": "Ludhiana Jn",
+        "arrivalMinutes": 1145
       },
+      "distanceKm": 292,
+      "totalTime": "7h 25m",
       "route": [
         {
-          "stationCode": "SSA",
-          "stationName": "Sirsa",
-          "arrivalMinutes": 0,
+          "code": "SSA",
+          "name": "Sirsa",
+          "arrivalMinutes": null,
           "departureMinutes": 700,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 0
+          "distanceKm": 0
         },
         {
-          "stationCode": "BJRN",
-          "stationName": "Suqkan",
+          "code": "BJRN",
+          "name": "Suqkan",
           "arrivalMinutes": 709,
           "departureMinutes": 710,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 7
+          "distanceKm": 7
         },
         {
-          "stationCode": "SHN",
-          "stationName": "Suchan Kotli",
+          "code": "SHN",
+          "name": "Suchan Kotli",
           "arrivalMinutes": 717,
           "departureMinutes": 719,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 15
+          "distanceKm": 15
         },
         {
-          "stationCode": "DING",
-          "stationName": "Ding",
+          "code": "DING",
+          "name": "Ding",
           "arrivalMinutes": 731,
           "departureMinutes": 733,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 25
+          "distanceKm": 25
         },
         {
-          "stationCode": "BHT",
-          "stationName": "Bhatsu",
+          "code": "BHT",
+          "name": "Bhatsu",
           "arrivalMinutes": 746,
           "departureMinutes": 748,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 36
+          "distanceKm": 36
         },
         {
-          "stationCode": "ADR",
-          "stationName": "Mandi Adampur",
+          "code": "ADR",
+          "name": "Mandi Adampur",
           "arrivalMinutes": 765,
           "departureMinutes": 767,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 53
+          "distanceKm": 53
         },
         {
-          "stationCode": "JRH",
-          "stationName": "Jakhod Khera",
+          "code": "JRH",
+          "name": "Jakhod Khera",
           "arrivalMinutes": 777,
           "departureMinutes": 779,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 66
+          "distanceKm": 66
         },
         {
-          "stationCode": "HSR",
-          "stationName": "Hisar Jn",
+          "code": "HSR",
+          "name": "Hisar Jn",
           "arrivalMinutes": 820,
           "departureMinutes": 830,
-          "day": 2,
-          "platform": "1",
-          "distanceFromSourceKm": 82
+          "distanceKm": 82
         },
         {
-          "stationCode": "RPHR",
-          "stationName": "Raipur Haryana Jn",
+          "code": "RPHR",
+          "name": "Raipur Haryana Jn",
           "arrivalMinutes": 842,
           "departureMinutes": 843,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 87
+          "distanceKm": 87
         },
         {
-          "stationCode": "DKK",
-          "stationName": "Dhansu",
+          "code": "DKK",
+          "name": "Dhansu",
           "arrivalMinutes": 850,
           "departureMinutes": 851,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 94
+          "distanceKm": 94
         },
         {
-          "stationCode": "BXC",
-          "stationName": "Barwala",
+          "code": "BXC",
+          "name": "Barwala",
           "arrivalMinutes": 866,
           "departureMinutes": 868,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 114
+          "distanceKm": 114
         },
         {
-          "stationCode": "OUP",
-          "stationName": "Daulapur Haryana",
+          "code": "OUP",
+          "name": "Daulapur Haryana",
           "arrivalMinutes": 878,
           "departureMinutes": 879,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 123
+          "distanceKm": 123
         },
         {
-          "stationCode": "UKN",
-          "stationName": "Utkina",
+          "code": "UKN",
+          "name": "Utkina",
           "arrivalMinutes": 886,
           "departureMinutes": 887,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 130
+          "distanceKm": 130
         },
         {
-          "stationCode": "GJW",
-          "stationName": "Gajuwala",
+          "code": "GJW",
+          "name": "Gajuwala",
           "arrivalMinutes": 894,
           "departureMinutes": 895,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 137
+          "distanceKm": 137
         },
         {
-          "stationCode": "PLT",
-          "stationName": "Pirthula Lalauda",
+          "code": "PLT",
+          "name": "Pirthula Lalauda",
           "arrivalMinutes": 902,
           "departureMinutes": 903,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 142
+          "distanceKm": 142
         },
         {
-          "stationCode": "JPS",
-          "stationName": "Jamalpur Shakhan",
+          "code": "JPS",
+          "name": "Jamalpur Shakhan",
           "arrivalMinutes": 912,
           "departureMinutes": 913,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 151
+          "distanceKm": 151
         },
         {
-          "stationCode": "KUDN",
-          "stationName": "Kudni",
+          "code": "KUDN",
+          "name": "Kudni",
           "arrivalMinutes": 919,
           "departureMinutes": 920,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 156
+          "distanceKm": 156
         },
         {
-          "stationCode": "JHL",
-          "stationName": "Jakhai Jn",
+          "code": "JHL",
+          "name": "Jakhai Jn",
           "arrivalMinutes": 931,
           "departureMinutes": 933,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 164
+          "distanceKm": 164
         },
         {
-          "stationCode": "LHA",
-          "stationName": "Lehra Gaga",
+          "code": "LHA",
+          "name": "Lehra Gaga",
           "arrivalMinutes": 950,
           "departureMinutes": 952,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 180
+          "distanceKm": 180
         },
         {
-          "stationCode": "CJL",
-          "stationName": "Chhaji",
+          "code": "CJL",
+          "name": "Chhaji",
           "arrivalMinutes": 966,
           "departureMinutes": 967,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 192
+          "distanceKm": 192
         },
         {
-          "stationCode": "SFMU",
-          "stationName": "Sunam Udham Singh Wala",
+          "code": "SFMU",
+          "name": "Sunam Udham Singh Wala",
           "arrivalMinutes": 975,
           "departureMinutes": 977,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 201
+          "distanceKm": 201
         },
         {
-          "stationCode": "SAG",
-          "stationName": "Sangrur",
+          "code": "SAG",
+          "name": "Sangrur",
           "arrivalMinutes": 989,
           "departureMinutes": 991,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 214
+          "distanceKm": 214
         },
         {
-          "stationCode": "RSS",
-          "stationName": "Bahadir Singh Wala",
+          "code": "RSS",
+          "name": "Bahadir Singh Wala",
           "arrivalMinutes": 1005,
           "departureMinutes": 1006,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 232
+          "distanceKm": 232
         },
         {
-          "stationCode": "OUI",
-          "stationName": "Dhuri Jn",
+          "code": "OUI",
+          "name": "Dhuri Jn",
           "arrivalMinutes": 1046,
           "departureMinutes": 1050,
-          "day": 2,
-          "platform": "1",
-          "distanceFromSourceKm": 207
+          "distanceKm": 207
         },
         {
-          "stationCode": "MET",
-          "stationName": "Malerkotla",
+          "code": "MET",
+          "name": "Malerkotla",
           "arrivalMinutes": 1044,
           "departureMinutes": 1046,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 247
+          "distanceKm": 247
         },
         {
-          "stationCode": "AHH",
-          "stationName": "Ahmedgarh",
+          "code": "AHH",
+          "name": "Ahmedgarh",
           "arrivalMinutes": 1070,
           "departureMinutes": 1072,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 267
+          "distanceKm": 267
         },
         {
-          "stationCode": "QRP",
-          "stationName": "Kila Raipur",
+          "code": "QRP",
+          "name": "Kila Raipur",
           "arrivalMinutes": 1110,
           "departureMinutes": 1110,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 274
+          "distanceKm": 274
         },
         {
-          "stationCode": "GILL",
-          "stationName": "Gill",
+          "code": "GILL",
+          "name": "Gill",
           "arrivalMinutes": 1116,
           "departureMinutes": 1117,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 284
+          "distanceKm": 284
         },
         {
-          "stationCode": "LDH",
-          "stationName": "Ludhiana Jn",
+          "code": "LDH",
+          "name": "Ludhiana Jn",
           "arrivalMinutes": 1145,
-          "departureMinutes": 0,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 292
+          "departureMinutes": null,
+          "distanceKm": 292
         }
       ]
     },
     {
       "trainNumber": "54552",
       "trainName": "Bathinda - Ambala Cantt Passenger",
-      "sourceStationCode": "BTI",
-      "destinationStationCode": "UMB",
-      "fromStationSchedule": {
-        "arrivalMinutes": 0,
-        "departureMinutes": 450,
-        "day": 1,
-        "platform": "7",
-        "distanceFromSourceKm": 0
+      "type": "Passenger",
+      "runningDays": ["M", "T", "W", "T", "F", "S", "S"],
+      "fromStation": {
+        "code": "BTI",
+        "name": "Bathinda Jn",
+        "departureMinutes": 450
       },
-      "toStationSchedule": {
-        "arrivalMinutes": 725,
-        "departureMinutes": 0,
-        "day": 1,
-        "platform": "2",
-        "distanceFromSourceKm": 201
+      "toStation": {
+        "code": "UMB",
+        "name": "Ambala Cantt Jn",
+        "arrivalMinutes": 725
       },
+      "distanceKm": 201,
+      "totalTime": "4h 35m",
       "route": [
         {
-          "stationCode": "BTI",
-          "stationName": "Bathinda Jn",
-          "arrivalMinutes": 0,
+          "code": "BTI",
+          "name": "Bathinda Jn",
+          "arrivalMinutes": null,
           "departureMinutes": 450,
-          "day": 1,
-          "platform": "7",
-          "distanceFromSourceKm": 0
+          "distanceKm": 0
         },
         {
-          "stationCode": "BTIC",
-          "stationName": "Bathinda Cantt",
+          "code": "BTIC",
+          "name": "Bathinda Cantt",
           "arrivalMinutes": 460,
           "departureMinutes": 461,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 6
+          "distanceKm": 6
         },
         {
-          "stationCode": "BCU",
-          "stationName": "Bhuchchu",
+          "code": "BCU",
+          "name": "Bhuchchu",
           "arrivalMinutes": 469,
           "departureMinutes": 470,
-          "day": 1,
-          "platform": "2",
-          "distanceFromSourceKm": 17
+          "distanceKm": 17
         },
         {
-          "stationCode": "PJL",
-          "stationName": "Rampura Phul",
+          "code": "PJL",
+          "name": "Rampura Phul",
           "arrivalMinutes": 482,
           "departureMinutes": 484,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 32
+          "distanceKm": 32
         },
         {
-          "stationCode": "JHK",
-          "stationName": "Jetinkae",
+          "code": "JHK",
+          "name": "Jetinkae",
           "arrivalMinutes": 494,
           "departureMinutes": 495,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 41
+          "distanceKm": 41
         },
         {
-          "stationCode": "TAPA",
-          "stationName": "Tapa",
+          "code": "TAPA",
+          "name": "Tapa",
           "arrivalMinutes": 501,
           "departureMinutes": 503,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 46
+          "distanceKm": 46
         },
         {
-          "stationCode": "GUNS",
-          "stationName": "Ghunas",
+          "code": "GUNS",
+          "name": "Ghunas",
           "arrivalMinutes": 510,
           "departureMinutes": 511,
-          "day": 1,
-          "platform": "2",
-          "distanceFromSourceKm": 51
+          "distanceKm": 51
         },
         {
-          "stationCode": "HYA",
-          "stationName": "Hadiyaya",
+          "code": "HYA",
+          "name": "Hadiyaya",
           "arrivalMinutes": 519,
           "departureMinutes": 520,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 59
+          "distanceKm": 59
         },
         {
-          "stationCode": "BNN",
-          "stationName": "Barnala",
+          "code": "BNN",
+          "name": "Barnala",
           "arrivalMinutes": 526,
           "departureMinutes": 528,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 65
+          "distanceKm": 65
         },
         {
-          "stationCode": "STO",
-          "stationName": "Sekha",
+          "code": "STO",
+          "name": "Sekha",
           "arrivalMinutes": 538,
           "departureMinutes": 539,
-          "day": 1,
-          "platform": "2",
-          "distanceFromSourceKm": 74
+          "distanceKm": 74
         },
         {
-          "stationCode": "ALAL",
-          "stationName": "Alal",
+          "code": "ALAL",
+          "name": "Alal",
           "arrivalMinutes": 547,
           "departureMinutes": 548,
-          "day": 1,
-          "platform": "2",
-          "distanceFromSourceKm": 82
+          "distanceKm": 82
         },
         {
-          "stationCode": "DUI",
-          "stationName": "Dhuri Jn",
+          "code": "DUI",
+          "name": "Dhuri Jn",
           "arrivalMinutes": 570,
           "departureMinutes": 572,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 95
+          "distanceKm": 95
         },
         {
-          "stationCode": "SLSK",
-          "stationName": "Kaulseri",
+          "code": "SLSK",
+          "name": "Kaulseri",
           "arrivalMinutes": 578,
           "departureMinutes": 580,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 102
+          "distanceKm": 102
         },
         {
-          "stationCode": "NBA",
-          "stationName": "Nabha",
+          "code": "NBA",
+          "name": "Nabha",
           "arrivalMinutes": 596,
           "departureMinutes": 598,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 122
+          "distanceKm": 122
         },
         {
-          "stationCode": "DBN",
-          "stationName": "Dhabilan",
+          "code": "DBN",
+          "name": "Dhabilan",
           "arrivalMinutes": 611,
           "departureMinutes": 612,
-          "day": 1,
-          "platform": "2",
-          "distanceFromSourceKm": 136
+          "distanceKm": 136
         },
         {
-          "stationCode": "PTA",
-          "stationName": "Patiala",
+          "code": "PTA",
+          "name": "Patiala",
           "arrivalMinutes": 622,
           "departureMinutes": 624,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 148
+          "distanceKm": 148
         },
         {
-          "stationCode": "DOC",
-          "stationName": "Daun Kalan",
+          "code": "DOC",
+          "name": "Daun Kalan",
           "arrivalMinutes": 633,
           "departureMinutes": 634,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 155
+          "distanceKm": 155
         },
         {
-          "stationCode": "KLI",
-          "stationName": "Kuili",
+          "code": "KLI",
+          "name": "Kuili",
           "arrivalMinutes": 647,
           "departureMinutes": 648,
-          "day": 1,
-          "platform": "2",
-          "distanceFromSourceKm": 162
+          "distanceKm": 162
         },
         {
-          "stationCode": "RPJ",
-          "stationName": "Rajpura Jn",
+          "code": "RPJ",
+          "name": "Rajpura Jn",
           "arrivalMinutes": 663,
           "departureMinutes": 665,
-          "day": 1,
-          "platform": "2",
-          "distanceFromSourceKm": 173
+          "distanceKm": 173
         },
         {
-          "stationCode": "SJAU",
-          "stationName": "Shambhu",
+          "code": "SJAU",
+          "name": "Shambhu",
           "arrivalMinutes": 698,
           "departureMinutes": 699,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 184
+          "distanceKm": 184
         },
         {
-          "stationCode": "UBC",
-          "stationName": "Ambala City",
+          "code": "UBC",
+          "name": "Ambala City",
           "arrivalMinutes": 708,
           "departureMinutes": 709,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 194
+          "distanceKm": 194
         },
         {
-          "stationCode": "UMB",
-          "stationName": "Ambala Cantt Jn",
+          "code": "UMB",
+          "name": "Ambala Cantt Jn",
           "arrivalMinutes": 725,
-          "departureMinutes": 0,
-          "day": 1,
-          "platform": "2",
-          "distanceFromSourceKm": 201
+          "departureMinutes": null,
+          "distanceKm": 201
         }
       ]
     },
     {
       "trainNumber": "4784",
       "trainName": "Sirsa - Bathinda Passenger",
-      "sourceStationCode": "SSA",
-      "destinationStationCode": "BTI",
-      "fromStationSchedule": {
-        "arrivalMinutes": 0,
-        "departureMinutes": 470,
-        "day": 1,
-        "platform": "1",
-        "distanceFromSourceKm": 0
+      "type": "Passenger",
+      "runningDays": ["M", "T", "W", "T", "F", "S", "S"],
+      "fromStation": {
+        "code": "SSA",
+        "name": "Sirsa",
+        "departureMinutes": 470
       },
-      "toStationSchedule": {
-        "arrivalMinutes": 600,
-        "departureMinutes": 0,
-        "day": 1,
-        "platform": "1",
-        "distanceFromSourceKm": 76
+      "toStation": {
+        "code": "BTI",
+        "name": "Bathinda Jn",
+        "arrivalMinutes": 600
       },
+      "distanceKm": 76,
+      "totalTime": "2h 10m",
       "route": [
         {
-          "stationCode": "SSA",
-          "stationName": "Sirsa",
-          "arrivalMinutes": 0,
+          "code": "SSA",
+          "name": "Sirsa",
+          "arrivalMinutes": null,
           "departureMinutes": 470,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 0
+          "distanceKm": 0
         },
         {
-          "stationCode": "BGD",
-          "stationName": "Bara Gudah",
+          "code": "BGD",
+          "name": "Bara Gudah",
           "arrivalMinutes": 483,
           "departureMinutes": 485,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 18
+          "distanceKm": 18
         },
         {
-          "stationCode": "SCV",
-          "stationName": "Sukhchain",
+          "code": "SCV",
+          "name": "Sukhchain",
           "arrivalMinutes": 493,
           "departureMinutes": 494,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 25
+          "distanceKm": 25
         },
         {
-          "stationCode": "KNL",
-          "stationName": "Kalunwali",
+          "code": "KNL",
+          "name": "Kalanwali",
           "arrivalMinutes": 501,
           "departureMinutes": 503,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 33
+          "distanceKm": 33
         },
         {
-          "stationCode": "RKK",
-          "stationName": "Ratangarh Kanakwal",
+          "code": "RKK",
+          "name": "Ratangarh Kanakwal",
           "arrivalMinutes": 511,
           "departureMinutes": 513,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 41
+          "distanceKm": 41
         },
         {
-          "stationCode": "RMN",
-          "stationName": "Raman",
+          "code": "RMN",
+          "name": "Raman",
           "arrivalMinutes": 520,
           "departureMinutes": 522,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 47
+          "distanceKm": 47
         },
         {
-          "stationCode": "BNLS",
-          "stationName": "Bangi Nihal Singh Halt",
+          "code": "BNLS",
+          "name": "Bangi Nihal Singh Halt",
           "arrivalMinutes": 529,
           "departureMinutes": 530,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 53
+          "distanceKm": 53
         },
         {
-          "stationCode": "MKBH",
-          "stationName": "Manwala Kot Bakhtu",
+          "code": "MKBH",
+          "name": "Manwala Kot Bakhtu",
           "arrivalMinutes": 535,
           "departureMinutes": 536,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 56
+          "distanceKm": 56
         },
         {
-          "stationCode": "SGA",
-          "stationName": "Shergarh",
+          "code": "SGA",
+          "name": "Shergarh",
           "arrivalMinutes": 540,
           "departureMinutes": 542,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 59
+          "distanceKm": 59
         },
         {
-          "stationCode": "GHB",
-          "stationName": "Gahri Bhagi",
+          "code": "GHB",
+          "name": "Gahri Bhagi",
           "arrivalMinutes": 551,
           "departureMinutes": 552,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 65
+          "distanceKm": 65
         },
         {
-          "stationCode": "BTI",
-          "stationName": "Bathinda Jn",
+          "code": "BTI",
+          "name": "Bathinda Jn",
           "arrivalMinutes": 600,
-          "departureMinutes": 0,
-          "day": 1,
-          "platform": "1",
-          "distanceFromSourceKm": 76
+          "departureMinutes": null,
+          "distanceKm": 76
         }
       ]
     }
-  ],
-  "error": null,
-  "meta": {
-    "timestamp": "2025-09-20T13:30:33.718Z",
-    "traceId": "train-schedule-54633-ssa-ldh",
-    "executionTime": 150,
-    "service": "train-schedule-service",
-    "method": "GET /trains"
-  }
+  ]
 }
