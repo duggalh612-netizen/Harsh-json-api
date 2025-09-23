@@ -1,0 +1,322 @@
+{
+  "success": true,
+  "data": {
+    "train": {
+      "number": "54633",
+      "name": "Sirsa - Ludhiana Passenger",
+      "type": "Passenger",
+      "source": {
+        "code": "SSA",
+        "name": "Sirsa",
+        "latitude": 29.5333,
+        "longitude": 75.0167
+      },
+      "destination": {
+        "code": "LDH",
+        "name": "Ludhiana Jn",
+        "latitude": 30.9010,
+        "longitude": 75.8573
+      }
+    },
+    "runDays": "M,T,W,T,F,S,S",
+    "stationDelays": [
+      {
+        "station": {
+          "code": "SSA",
+          "name": "Sirsa",
+          "latitude": 29.5333,
+          "longitude": 75.0167
+        },
+        "averageArrivalDelayMinutes": 0,
+        "averageDepartureDelayMinutes": 2
+      },
+      {
+        "station": {
+          "code": "BJRN",
+          "name": "Suqkan",
+          "latitude": 29.5500,
+          "longitude": 75.0500
+        },
+        "averageArrivalDelayMinutes": 1,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "SHN",
+          "name": "Suchan Kotli",
+          "latitude": 29.5667,
+          "longitude": 75.0833
+        },
+        "averageArrivalDelayMinutes": 2,
+        "averageDepartureDelayMinutes": 2
+      },
+      {
+        "station": {
+          "code": "DING",
+          "name": "Ding",
+          "latitude": 29.6000,
+          "longitude": 75.1167
+        },
+        "averageArrivalDelayMinutes": 3,
+        "averageDepartureDelayMinutes": 2
+      },
+      {
+        "station": {
+          "code": "BHT",
+          "name": "Bhatsu",
+          "latitude": 29.6333,
+          "longitude": 75.1500
+        },
+        "averageArrivalDelayMinutes": 4,
+        "averageDepartureDelayMinutes": 3
+      },
+      {
+        "station": {
+          "code": "ADR",
+          "name": "Mandi Adampur",
+          "latitude": 29.7167,
+          "longitude": 75.2000
+        },
+        "averageArrivalDelayMinutes": 5,
+        "averageDepartureDelayMinutes": 4
+      },
+      {
+        "station": {
+          "code": "JRH",
+          "name": "Jakhod Khera",
+          "latitude": 29.7667,
+          "longitude": 75.2500
+        },
+        "averageArrivalDelayMinutes": 6,
+        "averageDepartureDelayMinutes": 5
+      },
+      {
+        "station": {
+          "code": "HSR",
+          "name": "Hisar Jn",
+          "latitude": 29.1667,
+          "longitude": 75.7167
+        },
+        "averageArrivalDelayMinutes": 10,
+        "averageDepartureDelayMinutes": 8
+      },
+      {
+        "station": {
+          "code": "RPHR",
+          "name": "Raipur Haryana Jn",
+          "latitude": 29.2000,
+          "longitude": 75.7500
+        },
+        "averageArrivalDelayMinutes": 2,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "DKK",
+          "name": "Dhansu",
+          "latitude": 29.2333,
+          "longitude": 75.7833
+        },
+        "averageArrivalDelayMinutes": 1,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "BXC",
+          "name": "Barwala",
+          "latitude": 29.2667,
+          "longitude": 75.8167
+        },
+        "averageArrivalDelayMinutes": 2,
+        "averageDepartureDelayMinutes": 2
+      },
+      {
+        "station": {
+          "code": "OUP",
+          "name": "Daulapur Haryana",
+          "latitude": 29.3000,
+          "longitude": 75.8500
+        },
+        "averageArrivalDelayMinutes": 1,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "UKN",
+          "name": "Utkina",
+          "latitude": 29.3333,
+          "longitude": 75.8833
+        },
+        "averageArrivalDelayMinutes": 1,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "GJW",
+          "name": "Gajuwala",
+          "latitude": 29.3667,
+          "longitude": 75.9167
+        },
+        "averageArrivalDelayMinutes": 1,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "PLT",
+          "name": "Pirthula Lalauda",
+          "latitude": 29.4000,
+          "longitude": 75.9500
+        },
+        "averageArrivalDelayMinutes": 1,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "JPS",
+          "name": "Jamalpur Shakhan",
+          "latitude": 29.4333,
+          "longitude": 75.9833
+        },
+        "averageArrivalDelayMinutes": 1,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "KUDN",
+          "name": "Kudni",
+          "latitude": 29.4667,
+          "longitude": 76.0167
+        },
+        "averageArrivalDelayMinutes": 1,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "JHL",
+          "name": "Jakhai Jn",
+          "latitude": 29.5000,
+          "longitude": 76.0500
+        },
+        "averageArrivalDelayMinutes": 2,
+        "averageDepartureDelayMinutes": 2
+      },
+      {
+        "station": {
+          "code": "LHA",
+          "name": "Lehra Gaga",
+          "latitude": 29.5333,
+          "longitude": 76.0833
+        },
+        "averageArrivalDelayMinutes": 2,
+        "averageDepartureDelayMinutes": 2
+      },
+      {
+        "station": {
+          "code": "CJL",
+          "name": "Chhaji",
+          "latitude": 29.5667,
+          "longitude": 76.1167
+        },
+        "averageArrivalDelayMinutes": 1,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "SFMU",
+          "name": "Sunam Udham Singh Wala",
+          "latitude": 29.6000,
+          "longitude": 76.1500
+        },
+        "averageArrivalDelayMinutes": 2,
+        "averageDepartureDelayMinutes": 2
+      },
+      {
+        "station": {
+          "code": "SAG",
+          "name": "Sangrur",
+          "latitude": 30.2333,
+          "longitude": 75.8333
+        },
+        "averageArrivalDelayMinutes": 2,
+        "averageDepartureDelayMinutes": 2
+      },
+      {
+        "station": {
+          "code": "RSS",
+          "name": "Bahadir Singh Wala",
+          "latitude": 30.2667,
+          "longitude": 75.8667
+        },
+        "averageArrivalDelayMinutes": 1,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "DUI",
+          "name": "Dhuri Jn",
+          "latitude": 30.3667,
+          "longitude": 75.8667
+        },
+        "averageArrivalDelayMinutes": 5,
+        "averageDepartureDelayMinutes": 4
+      },
+      {
+        "station": {
+          "code": "MET",
+          "name": "Malerkotla",
+          "latitude": 30.5167,
+          "longitude": 75.8833
+        },
+        "averageArrivalDelayMinutes": 2,
+        "averageDepartureDelayMinutes": 2
+      },
+      {
+        "station": {
+          "code": "AHH",
+          "name": "Ahmedgarh",
+          "latitude": 30.6667,
+          "longitude": 75.8333
+        },
+        "averageArrivalDelayMinutes": 2,
+        "averageDepartureDelayMinutes": 2
+      },
+      {
+        "station": {
+          "code": "QRP",
+          "name": "Kila Raipur",
+          "latitude": 30.7833,
+          "longitude": 75.8000
+        },
+        "averageArrivalDelayMinutes": 0,
+        "averageDepartureDelayMinutes": 0
+      },
+      {
+        "station": {
+          "code": "GILL",
+          "name": "Gill",
+          "latitude": 30.8500,
+          "longitude": 75.7833
+        },
+        "averageArrivalDelayMinutes": 1,
+        "averageDepartureDelayMinutes": 1
+      },
+      {
+        "station": {
+          "code": "LDH",
+          "name": "Ludhiana Jn",
+          "latitude": 30.9010,
+          "longitude": 75.8573
+        },
+        "averageArrivalDelayMinutes": 5,
+        "averageDepartureDelayMinutes": 0
+      }
+    ]
+  },
+  "meta": {
+    "timestamp": "2025-09-23T09:30:10.175Z",
+    "traceId": "train-54633-schedule-001",
+    "executionTime": 150,
+    "service": "train-schedule-service",
+    "method": "GET /trains/54633/schedule"
+  }
+}
