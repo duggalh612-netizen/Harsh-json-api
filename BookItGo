@@ -18,326 +18,209 @@
       },
       "distanceKm": 292,
       "totalTime": "7h 25m",
-      "journeyStart": "2025-09-23T11:40:00+05:30",
       "route": [
         {
           "code": "SSA",
           "name": "Sirsa",
           "arrivalMinutes": null,
           "departureMinutes": 700,
-          "distanceKm": 0,
-          "totalDistanceCovered": 0,
-          "timeFromStart": "0h 0m",
-          "estimatedArrival": "2025-09-23T11:40:00+05:30",
-          "estimatedDeparture": "2025-09-23T11:40:00+05:30"
+          "distanceKm": 0
         },
         {
           "code": "BJRN",
           "name": "Suqkan",
           "arrivalMinutes": 709,
           "departureMinutes": 710,
-          "distanceKm": 7,
-          "totalDistanceCovered": 7,
-          "timeFromStart": "0h 9m",
-          "estimatedArrival": "2025-09-23T11:49:00+05:30",
-          "estimatedDeparture": "2025-09-23T11:50:00+05:30"
+          "distanceKm": 7
         },
         {
           "code": "SHN",
           "name": "Suchan Kotli",
           "arrivalMinutes": 717,
           "departureMinutes": 719,
-          "distanceKm": 15,
-          "totalDistanceCovered": 15,
-          "timeFromStart": "0h 17m",
-          "estimatedArrival": "2025-09-23T11:57:00+05:30",
-          "estimatedDeparture": "2025-09-23T11:59:00+05:30"
+          "distanceKm": 15
         },
         {
           "code": "DING",
           "name": "Ding",
           "arrivalMinutes": 731,
           "departureMinutes": 733,
-          "distanceKm": 25,
-          "totalDistanceCovered": 25,
-          "timeFromStart": "0h 31m",
-          "estimatedArrival": "2025-09-23T12:11:00+05:30",
-          "estimatedDeparture": "2025-09-23T12:13:00+05:30"
+          "distanceKm": 25
         },
         {
           "code": "BHT",
           "name": "Bhatsu",
           "arrivalMinutes": 746,
           "departureMinutes": 748,
-          "distanceKm": 36,
-          "totalDistanceCovered": 36,
-          "timeFromStart": "0h 46m",
-          "estimatedArrival": "2025-09-23T12:26:00+05:30",
-          "estimatedDeparture": "2025-09-23T12:28:00+05:30"
+          "distanceKm": 36
         },
         {
           "code": "ADR",
           "name": "Mandi Adampur",
           "arrivalMinutes": 765,
           "departureMinutes": 767,
-          "distanceKm": 53,
-          "totalDistanceCovered": 53,
-          "timeFromStart": "1h 5m",
-          "estimatedArrival": "2025-09-23T12:45:00+05:30",
-          "estimatedDeparture": "2025-09-23T12:47:00+05:30"
+          "distanceKm": 53
         },
         {
           "code": "JRH",
           "name": "Jakhod Khera",
           "arrivalMinutes": 777,
           "departureMinutes": 779,
-          "distanceKm": 66,
-          "totalDistanceCovered": 66,
-          "timeFromStart": "1h 17m",
-          "estimatedArrival": "2025-09-23T12:57:00+05:30",
-          "estimatedDeparture": "2025-09-23T12:59:00+05:30"
+          "distanceKm": 66
         },
         {
           "code": "HSR",
           "name": "Hisar Jn",
           "arrivalMinutes": 820,
           "departureMinutes": 830,
-          "distanceKm": 82,
-          "totalDistanceCovered": 82,
-          "timeFromStart": "2h 0m",
-          "estimatedArrival": "2025-09-23T13:40:00+05:30",
-          "estimatedDeparture": "2025-09-23T13:50:00+05:30"
+          "distanceKm": 82
         },
         {
           "code": "RPHR",
           "name": "Raipur Haryana Jn",
           "arrivalMinutes": 842,
           "departureMinutes": 843,
-          "distanceKm": 87,
-          "totalDistanceCovered": 87,
-          "timeFromStart": "2h 22m",
-          "estimatedArrival": "2025-09-23T14:02:00+05:30",
-          "estimatedDeparture": "2025-09-23T14:03:00+05:30"
+          "distanceKm": 87
         },
         {
           "code": "DKK",
           "name": "Dhansu",
           "arrivalMinutes": 850,
           "departureMinutes": 851,
-          "distanceKm": 94,
-          "totalDistanceCovered": 94,
-          "timeFromStart": "2h 30m",
-          "estimatedArrival": "2025-09-23T14:10:00+05:30",
-          "estimatedDeparture": "2025-09-23T14:11:00+05:30"
+          "distanceKm": 94
         },
         {
           "code": "BXC",
           "name": "Barwala",
           "arrivalMinutes": 866,
           "departureMinutes": 868,
-          "distanceKm": 114,
-          "totalDistanceCovered": 114,
-          "timeFromStart": "2h 46m",
-          "estimatedArrival": "2025-09-23T14:26:00+05:30",
-          "estimatedDeparture": "2025-09-23T14:28:00+05:30"
+          "distanceKm": 114
         },
         {
           "code": "OUP",
           "name": "Daulapur Haryana",
           "arrivalMinutes": 878,
           "departureMinutes": 879,
-          "distanceKm": 123,
-          "totalDistanceCovered": 123,
-          "timeFromStart": "2h 58m",
-          "estimatedArrival": "2025-09-23T14:38:00+05:30",
-          "estimatedDeparture": "2025-09-23T14:39:00+05:30"
+          "distanceKm": 123
         },
         {
           "code": "UKN",
           "name": "Utkina",
           "arrivalMinutes": 886,
           "departureMinutes": 887,
-          "distanceKm": 130,
-          "totalDistanceCovered": 130,
-          "timeFromStart": "3h 6m",
-          "estimatedArrival": "2025-09-23T14:46:00+05:30",
-          "estimatedDeparture": "2025-09-23T14:47:00+05:30"
+          "distanceKm": 130
         },
         {
           "code": "GJW",
           "name": "Gajuwala",
           "arrivalMinutes": 894,
           "departureMinutes": 895,
-          "distanceKm": 137,
-          "totalDistanceCovered": 137,
-          "timeFromStart": "3h 14m",
-          "estimatedArrival": "2025-09-23T14:54:00+05:30",
-          "estimatedDeparture": "2025-09-23T14:55:00+05:30"
+          "distanceKm": 137
         },
         {
           "code": "PLT",
           "name": "Pirthula Lalauda",
           "arrivalMinutes": 902,
           "departureMinutes": 903,
-          "distanceKm": 142,
-          "totalDistanceCovered": 142,
-          "timeFromStart": "3h 22m",
-          "estimatedArrival": "2025-09-23T15:02:00+05:30",
-          "estimatedDeparture": "2025-09-23T15:03:00+05:30"
+          "distanceKm": 142
         },
         {
           "code": "JPS",
           "name": "Jamalpur Shakhan",
           "arrivalMinutes": 912,
           "departureMinutes": 913,
-          "distanceKm": 151,
-          "totalDistanceCovered": 151,
-          "timeFromStart": "3h 32m",
-          "estimatedArrival": "2025-09-23T15:12:00+05:30",
-          "estimatedDeparture": "2025-09-23T15:13:00+05:30"
+          "distanceKm": 151
         },
         {
           "code": "KUDN",
           "name": "Kudni",
           "arrivalMinutes": 919,
           "departureMinutes": 920,
-          "distanceKm": 156,
-          "totalDistanceCovered": 156,
-          "timeFromStart": "3h 39m",
-          "estimatedArrival": "2025-09-23T15:19:00+05:30",
-          "estimatedDeparture": "2025-09-23T15:20:00+05:30"
+          "distanceKm": 156
         },
         {
           "code": "JHL",
           "name": "Jakhai Jn",
           "arrivalMinutes": 931,
           "departureMinutes": 933,
-          "distanceKm": 164,
-          "totalDistanceCovered": 164,
-          "timeFromStart": "3h 51m",
-          "estimatedArrival": "2025-09-23T15:31:00+05:30",
-          "estimatedDeparture": "2025-09-23T15:33:00+05:30"
+          "distanceKm": 164
         },
         {
           "code": "LHA",
           "name": "Lehra Gaga",
           "arrivalMinutes": 950,
           "departureMinutes": 952,
-          "distanceKm": 180,
-          "totalDistanceCovered": 180,
-          "timeFromStart": "4h 10m",
-          "estimatedArrival": "2025-09-23T15:50:00+05:30",
-          "estimatedDeparture": "2025-09-23T15:52:00+05:30"
+          "distanceKm": 180
         },
         {
           "code": "CJL",
           "name": "Chhaji",
           "arrivalMinutes": 966,
           "departureMinutes": 967,
-          "distanceKm": 192,
-          "totalDistanceCovered": 192,
-          "timeFromStart": "4h 26m",
-          "estimatedArrival": "2025-09-23T16:06:00+05:30",
-          "estimatedDeparture": "2025-09-23T16:07:00+05:30"
+          "distanceKm": 192
         },
         {
           "code": "SFMU",
           "name": "Sunam Udham Singh Wala",
           "arrivalMinutes": 975,
           "departureMinutes": 977,
-          "distanceKm": 201,
-          "totalDistanceCovered": 201,
-          "timeFromStart": "4h 35m",
-          "estimatedArrival": "2025-09-23T16:15:00+05:30",
-          "estimatedDeparture": "2025-09-23T16:17:00+05:30"
+          "distanceKm": 201
         },
         {
           "code": "SAG",
           "name": "Sangrur",
           "arrivalMinutes": 989,
           "departureMinutes": 991,
-          "distanceKm": 214,
-          "totalDistanceCovered": 214,
-          "timeFromStart": "4h 49m",
-          "estimatedArrival": "2025-09-23T16:29:00+05:30",
-          "estimatedDeparture": "2025-09-23T16:31:00+05:30"
+          "distanceKm": 214
         },
         {
           "code": "RSS",
           "name": "Bahadir Singh Wala",
           "arrivalMinutes": 1005,
           "departureMinutes": 1006,
-          "distanceKm": 232,
-          "totalDistanceCovered": 232,
-          "timeFromStart": "5h 5m",
-          "estimatedArrival": "2025-09-23T16:45:00+05:30",
-          "estimatedDeparture": "2025-09-23T16:46:00+05:30"
+          "distanceKm": 232
         },
         {
-          "code": "DUI",
+          "code": "OUI",
           "name": "Dhuri Jn",
           "arrivalMinutes": 1046,
           "departureMinutes": 1050,
-          "distanceKm": 207,
-          "totalDistanceCovered": 207,
-          "timeFromStart": "5h 46m",
-          "estimatedArrival": "2025-09-23T17:26:00+05:30",
-          "estimatedDeparture": "2025-09-23T17:30:00+05:30"
+          "distanceKm": 207
         },
         {
           "code": "MET",
           "name": "Malerkotla",
           "arrivalMinutes": 1044,
           "departureMinutes": 1046,
-          "distanceKm": 247,
-          "totalDistanceCovered": 247,
-          "timeFromStart": "5h 44m",
-          "estimatedArrival": "2025-09-23T17:24:00+05:30",
-          "estimatedDeparture": "2025-09-23T17:26:00+05:30"
+          "distanceKm": 247
         },
         {
           "code": "AHH",
           "name": "Ahmedgarh",
           "arrivalMinutes": 1070,
           "departureMinutes": 1072,
-          "distanceKm": 267,
-          "totalDistanceCovered": 267,
-          "timeFromStart": "6h 10m",
-          "estimatedArrival": "2025-09-23T17:50:00+05:30",
-          "estimatedDeparture": "2025-09-23T17:52:00+05:30"
+          "distanceKm": 267
         },
         {
           "code": "QRP",
           "name": "Kila Raipur",
           "arrivalMinutes": 1110,
           "departureMinutes": 1110,
-          "distanceKm": 274,
-          "totalDistanceCovered": 274,
-          "timeFromStart": "6h 50m",
-          "estimatedArrival": "2025-09-23T18:30:00+05:30",
-          "estimatedDeparture": "2025-09-23T18:30:00+05:30"
+          "distanceKm": 274
         },
         {
           "code": "GILL",
           "name": "Gill",
           "arrivalMinutes": 1116,
           "departureMinutes": 1117,
-          "distanceKm": 284,
-          "totalDistanceCovered": 284,
-          "timeFromStart": "6h 56m",
-          "estimatedArrival": "2025-09-23T18:36:00+05:30",
-          "estimatedDeparture": "2025-09-23T18:37:00+05:30"
+          "distanceKm": 284
         },
         {
           "code": "LDH",
           "name": "Ludhiana Jn",
           "arrivalMinutes": 1145,
           "departureMinutes": null,
-          "distanceKm": 292,
-          "totalDistanceCovered": 292,
-          "timeFromStart": "7h 25m",
-          "estimatedArrival": "2025-09-23T19:05:00+05:30",
-          "estimatedDeparture": null
+          "distanceKm": 292
         }
       ]
     },
@@ -358,249 +241,160 @@
       },
       "distanceKm": 201,
       "totalTime": "4h 35m",
-      "journeyStart": "2025-09-23T07:30:00+05:30",
       "route": [
         {
           "code": "BTI",
           "name": "Bathinda Jn",
           "arrivalMinutes": null,
           "departureMinutes": 450,
-          "distanceKm": 0,
-          "totalDistanceCovered": 0,
-          "timeFromStart": "0h 0m",
-          "estimatedArrival": "2025-09-23T07:30:00+05:30",
-          "estimatedDeparture": "2025-09-23T07:30:00+05:30"
+          "distanceKm": 0
         },
         {
           "code": "BTIC",
           "name": "Bathinda Cantt",
           "arrivalMinutes": 460,
           "departureMinutes": 461,
-          "distanceKm": 6,
-          "totalDistanceCovered": 6,
-          "timeFromStart": "0h 10m",
-          "estimatedArrival": "2025-09-23T07:40:00+05:30",
-          "estimatedDeparture": "2025-09-23T07:41:00+05:30"
+          "distanceKm": 6
         },
         {
           "code": "BCU",
           "name": "Bhuchchu",
           "arrivalMinutes": 469,
           "departureMinutes": 470,
-          "distanceKm": 17,
-          "totalDistanceCovered": 17,
-          "timeFromStart": "0h 19m",
-          "estimatedArrival": "2025-09-23T07:49:00+05:30",
-          "estimatedDeparture": "2025-09-23T07:50:00+05:30"
+          "distanceKm": 17
         },
         {
           "code": "PJL",
           "name": "Rampura Phul",
           "arrivalMinutes": 482,
           "departureMinutes": 484,
-          "distanceKm": 32,
-          "totalDistanceCovered": 32,
-          "timeFromStart": "0h 32m",
-          "estimatedArrival": "2025-09-23T08:02:00+05:30",
-          "estimatedDeparture": "2025-09-23T08:04:00+05:30"
+          "distanceKm": 32
         },
         {
           "code": "JHK",
           "name": "Jetinkae",
           "arrivalMinutes": 494,
           "departureMinutes": 495,
-          "distanceKm": 41,
-          "totalDistanceCovered": 41,
-          "timeFromStart": "0h 44m",
-          "estimatedArrival": "2025-09-23T08:14:00+05:30",
-          "estimatedDeparture": "2025-09-23T08:15:00+05:30"
+          "distanceKm": 41
         },
         {
           "code": "TAPA",
           "name": "Tapa",
           "arrivalMinutes": 501,
           "departureMinutes": 503,
-          "distanceKm": 46,
-          "totalDistanceCovered": 46,
-          "timeFromStart": "0h 51m",
-          "estimatedArrival": "2025-09-23T08:21:00+05:30",
-          "estimatedDeparture": "2025-09-23T08:23:00+05:30"
+          "distanceKm": 46
         },
         {
           "code": "GUNS",
           "name": "Ghunas",
           "arrivalMinutes": 510,
           "departureMinutes": 511,
-          "distanceKm": 51,
-          "totalDistanceCovered": 51,
-          "timeFromStart": "1h 0m",
-          "estimatedArrival": "2025-09-23T08:30:00+05:30",
-          "estimatedDeparture": "2025-09-23T08:31:00+05:30"
+          "distanceKm": 51
         },
         {
           "code": "HYA",
           "name": "Hadiyaya",
           "arrivalMinutes": 519,
           "departureMinutes": 520,
-          "distanceKm": 59,
-          "totalDistanceCovered": 59,
-          "timeFromStart": "1h 9m",
-          "estimatedArrival": "2025-09-23T08:39:00+05:30",
-          "estimatedDeparture": "2025-09-23T08:40:00+05:30"
+          "distanceKm": 59
         },
         {
           "code": "BNN",
           "name": "Barnala",
           "arrivalMinutes": 526,
           "departureMinutes": 528,
-          "distanceKm": 65,
-          "totalDistanceCovered": 65,
-          "timeFromStart": "1h 16m",
-          "estimatedArrival": "2025-09-23T08:46:00+05:30",
-          "estimatedDeparture": "2025-09-23T08:48:00+05:30"
+          "distanceKm": 65
         },
         {
           "code": "STO",
           "name": "Sekha",
           "arrivalMinutes": 538,
           "departureMinutes": 539,
-          "distanceKm": 74,
-          "totalDistanceCovered": 74,
-          "timeFromStart": "1h 28m",
-          "estimatedArrival": "2025-09-23T08:58:00+05:30",
-          "estimatedDeparture": "2025-09-23T08:59:00+05:30"
+          "distanceKm": 74
         },
         {
           "code": "ALAL",
           "name": "Alal",
           "arrivalMinutes": 547,
           "departureMinutes": 548,
-          "distanceKm": 82,
-          "totalDistanceCovered": 82,
-          "timeFromStart": "1h 37m",
-          "estimatedArrival": "2025-09-23T09:07:00+05:30",
-          "estimatedDeparture": "2025-09-23T09:08:00+05:30"
+          "distanceKm": 82
         },
         {
           "code": "DUI",
           "name": "Dhuri Jn",
           "arrivalMinutes": 570,
           "departureMinutes": 572,
-          "distanceKm": 95,
-          "totalDistanceCovered": 95,
-          "timeFromStart": "2h 0m",
-          "estimatedArrival": "2025-09-23T09:30:00+05:30",
-          "estimatedDeparture": "2025-09-23T09:32:00+05:30"
+          "distanceKm": 95
         },
         {
           "code": "SLSK",
           "name": "Kaulseri",
           "arrivalMinutes": 578,
           "departureMinutes": 580,
-          "distanceKm": 102,
-          "totalDistanceCovered": 102,
-          "timeFromStart": "2h 8m",
-          "estimatedArrival": "2025-09-23T09:38:00+05:30",
-          "estimatedDeparture": "2025-09-23T09:40:00+05:30"
+          "distanceKm": 102
         },
         {
           "code": "NBA",
           "name": "Nabha",
           "arrivalMinutes": 596,
           "departureMinutes": 598,
-          "distanceKm": 122,
-          "totalDistanceCovered": 122,
-          "timeFromStart": "2h 26m",
-          "estimatedArrival": "2025-09-23T09:56:00+05:30",
-          "estimatedDeparture": "2025-09-23T09:58:00+05:30"
+          "distanceKm": 122
         },
         {
           "code": "DBN",
           "name": "Dhabilan",
           "arrivalMinutes": 611,
           "departureMinutes": 612,
-          "distanceKm": 136,
-          "totalDistanceCovered": 136,
-          "timeFromStart": "2h 41m",
-          "estimatedArrival": "2025-09-23T10:11:00+05:30",
-          "estimatedDeparture": "2025-09-23T10:12:00+05:30"
+          "distanceKm": 136
         },
         {
           "code": "PTA",
           "name": "Patiala",
           "arrivalMinutes": 622,
           "departureMinutes": 624,
-          "distanceKm": 148,
-          "totalDistanceCovered": 148,
-          "timeFromStart": "2h 52m",
-          "estimatedArrival": "2025-09-23T10:22:00+05:30",
-          "estimatedDeparture": "2025-09-23T10:24:00+05:30"
+          "distanceKm": 148
         },
         {
           "code": "DOC",
           "name": "Daun Kalan",
           "arrivalMinutes": 633,
           "departureMinutes": 634,
-          "distanceKm": 155,
-          "totalDistanceCovered": 155,
-          "timeFromStart": "3h 3m",
-          "estimatedArrival": "2025-09-23T10:33:00+05:30",
-          "estimatedDeparture": "2025-09-23T10:34:00+05:30"
+          "distanceKm": 155
         },
         {
           "code": "KLI",
           "name": "Kuili",
           "arrivalMinutes": 647,
           "departureMinutes": 648,
-          "distanceKm": 162,
-          "totalDistanceCovered": 162,
-          "timeFromStart": "3h 17m",
-          "estimatedArrival": "2025-09-23T10:47:00+05:30",
-          "estimatedDeparture": "2025-09-23T10:48:00+05:30"
+          "distanceKm": 162
         },
         {
           "code": "RPJ",
           "name": "Rajpura Jn",
           "arrivalMinutes": 663,
           "departureMinutes": 665,
-          "distanceKm": 173,
-          "totalDistanceCovered": 173,
-          "timeFromStart": "3h 33m",
-          "estimatedArrival": "2025-09-23T11:03:00+05:30",
-          "estimatedDeparture": "2025-09-23T11:05:00+05:30"
+          "distanceKm": 173
         },
         {
           "code": "SJAU",
           "name": "Shambhu",
           "arrivalMinutes": 698,
           "departureMinutes": 699,
-          "distanceKm": 184,
-          "totalDistanceCovered": 184,
-          "timeFromStart": "4h 8m",
-          "estimatedArrival": "2025-09-23T11:38:00+05:30",
-          "estimatedDeparture": "2025-09-23T11:39:00+05:30"
+          "distanceKm": 184
         },
         {
           "code": "UBC",
           "name": "Ambala City",
           "arrivalMinutes": 708,
           "departureMinutes": 709,
-          "distanceKm": 194,
-          "totalDistanceCovered": 194,
-          "timeFromStart": "4h 18m",
-          "estimatedArrival": "2025-09-23T11:48:00+05:30",
-          "estimatedDeparture": "2025-09-23T11:49:00+05:30"
+          "distanceKm": 194
         },
         {
           "code": "UMB",
           "name": "Ambala Cantt Jn",
           "arrivalMinutes": 725,
           "departureMinutes": null,
-          "distanceKm": 201,
-          "totalDistanceCovered": 201,
-          "timeFromStart": "4h 35m",
-          "estimatedArrival": "2025-09-23T12:05:00+05:30",
-          "estimatedDeparture": null
+          "distanceKm": 201
         }
       ]
     },
@@ -608,4 +402,98 @@
       "trainNumber": "4784",
       "trainName": "Sirsa - Bathinda Passenger",
       "type": "Passenger",
-      "runningDays": ["M"
+      "runningDays": ["M", "T", "W", "T", "F", "S", "S"],
+      "fromStation": {
+        "code": "SSA",
+        "name": "Sirsa",
+        "departureMinutes": 470
+      },
+      "toStation": {
+        "code": "BTI",
+        "name": "Bathinda Jn",
+        "arrivalMinutes": 600
+      },
+      "distanceKm": 76,
+      "totalTime": "2h 10m",
+      "route": [
+        {
+          "code": "SSA",
+          "name": "Sirsa",
+          "arrivalMinutes": null,
+          "departureMinutes": 470,
+          "distanceKm": 0
+        },
+        {
+          "code": "BGD",
+          "name": "Bara Gudah",
+          "arrivalMinutes": 483,
+          "departureMinutes": 485,
+          "distanceKm": 18
+        },
+        {
+          "code": "SCV",
+          "name": "Sukhchain",
+          "arrivalMinutes": 493,
+          "departureMinutes": 494,
+          "distanceKm": 25
+        },
+        {
+          "code": "KNL",
+          "name": "Kalanwali",
+          "arrivalMinutes": 501,
+          "departureMinutes": 503,
+          "distanceKm": 33
+        },
+        {
+          "code": "RKK",
+          "name": "Ratangarh Kanakwal",
+          "arrivalMinutes": 511,
+          "departureMinutes": 513,
+          "distanceKm": 41
+        },
+        {
+          "code": "RMN",
+          "name": "Raman",
+          "arrivalMinutes": 520,
+          "departureMinutes": 522,
+          "distanceKm": 47
+        },
+        {
+          "code": "BNLS",
+          "name": "Bangi Nihal Singh Halt",
+          "arrivalMinutes": 529,
+          "departureMinutes": 530,
+          "distanceKm": 53
+        },
+        {
+          "code": "MKBH",
+          "name": "Manwala Kot Bakhtu",
+          "arrivalMinutes": 535,
+          "departureMinutes": 536,
+          "distanceKm": 56
+        },
+        {
+          "code": "SGA",
+          "name": "Shergarh",
+          "arrivalMinutes": 540,
+          "departureMinutes": 542,
+          "distanceKm": 59
+        },
+        {
+          "code": "GHB",
+          "name": "Gahri Bhagi",
+          "arrivalMinutes": 551,
+          "departureMinutes": 552,
+          "distanceKm": 65
+        },
+        {
+          "code": "BTI",
+          "name": "Bathinda Jn",
+          "arrivalMinutes": 600,
+          "departureMinutes": null,
+          "distanceKm": 76
+        }
+      ]
+    }
+  ]
+}
